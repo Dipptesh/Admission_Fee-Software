@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{EE902777-B659-41D7-86D9-718A89F7C0A8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WebApplication1</RootNamespace>
+    <AssemblyName>WebApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>WebApplication1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>WebApplication1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AccountantData.aspx" />
+    <Content Include="AccountantLogin.aspx" />
+    <Content Include="AdminLogin.aspx" />
+    <Content Include="AdmissionApplication.aspx" />
+    <Content Include="Css\all%28Fonts%29.css" />
+    <Content Include="Css\all.css" />
+    <Content Include="Css\bootstrap.css" />
+    <Content Include="Css\bootstrap.min.css" />
+    <Content Include="Css\buttons.css" />
+    <Content Include="Css\css.css" />
+    <Content Include="Css\demo.css" />
+    <Content Include="Css\dropdown.css" />
+    <Content Include="Css\enquiryform.css" />
+    <Content Include="Css\fieldtext.css" />
+    <Content Include="Css\Font1.css" />
+    <Content Include="Css\ImgAvtar.css" />
+    <Content Include="Css\LoginTextBox.css" />
+    <Content Include="Css\now-ui-dashboard.css" />
+    <Content Include="Css\now-ui-dashboard.min.css" />
+    <Content Include="Css\placeholder.css" />
+    <Content Include="Css\searchbar.css" />
+    <Content Include="Css\Site.css" />
+    <Content Include="Dashboard.aspx" />
+    <Content Include="Enquiry.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="HomePage.aspx" />
+    <Content Include="Images\Accounts.png" />
+    <Content Include="Images\admission.png" />
+    <Content Include="Images\apple-icon.png" />
+    <Content Include="Images\Certifications.png" />
+    <Content Include="Images\default-avatar.png" />
+    <Content Include="Images\Desk.png" />
+    <Content Include="Images\enquiry.png" />
+    <Content Include="Images\favicon.png" />
+    <Content Include="Images\fees.png" />
+    <Content Include="Images\login.png" />
+    <Content Include="Images\logout.png" />
+    <Content Include="Images\ManageData.png" />
+    <Content Include="Images\now-logo.png" />
+    <Content Include="Images\Rainbow_233.jpg" />
+    <Content Include="Images\Search.png" />
+    <Content Include="Images\SignInButton.png" />
+    <Content Include="ManageData.aspx" />
+    <Content Include="Scripts\bootstrap-notify.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\chartjs.min.js" />
+    <Content Include="Scripts\demo.js" />
+    <Content Include="Scripts\Edropdown.js" />
+    <Content Include="Scripts\formvalidation.js" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\nucleo-license.md" />
+    <Content Include="fonts\nucleo-outline.eot" />
+    <Content Include="fonts\nucleo-outline.ttf" />
+    <Content Include="fonts\nucleo-outline.woff" />
+    <Content Include="fonts\nucleo-outline.woff2" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\WebFormsScript\DetailsView.js" />
+    <Content Include="Scripts\WebFormsScript\Focus.js" />
+    <Content Include="Scripts\WebFormsScript\GridView.js" />
+    <Content Include="Scripts\WebFormsScript\js.js" />
+    <Content Include="Scripts\WebFormsScript\Menu.js" />
+    <Content Include="Scripts\WebFormsScript\MenuStandards.js" />
+    <Content Include="Scripts\WebFormsScript\MSAjax\DetailsView.js" />
+    <Content Include="Scripts\WebFormsScript\MSAjax\Focus.js" />
+    <Content Include="Scripts\WebFormsScript\MSAjax\GridView.js" />
+    <Content Include="Scripts\WebFormsScript\MSAjax\js.js" />
+    <Content Include="Scripts\WebFormsScript\MSAjax\Menu.js" />
+    <Content Include="Scripts\WebFormsScript\MSAjax\MenuStandards.js" />
+    <Content Include="Scripts\WebFormsScript\MSAjax\now-ui-dashboard.js" />
+    <Content Include="Scripts\WebFormsScript\MSAjax\now-ui-dashboard.min.js" />
+    <Content Include="Scripts\WebFormsScript\MSAjax\SmartNav.js" />
+    <Content Include="Scripts\WebFormsScript\MSAjax\TreeView.js" />
+    <Content Include="Scripts\WebFormsScript\MSAjax\WebForms.js" />
+    <Content Include="Scripts\WebFormsScript\MSAjax\WebParts.js" />
+    <Content Include="Scripts\WebFormsScript\MSAjax\WebUIValidation.js" />
+    <Content Include="Scripts\WebFormsScript\now-ui-dashboard.js" />
+    <Content Include="Scripts\WebFormsScript\now-ui-dashboard.min.js" />
+    <Content Include="Scripts\WebFormsScript\SmartNav.js" />
+    <Content Include="Scripts\WebFormsScript\TreeView.js" />
+    <Content Include="Scripts\WebFormsScript\WebForms.js" />
+    <Content Include="Scripts\WebFormsScript\WebParts.js" />
+    <Content Include="Scripts\WebFormsScript\WebUIValidation.js" />
+    <Content Include="Scripts\perfect-scrollbar.jquery.min.js" />
+    <Content Include="Scripts\Popper.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\textbox.js" />
+    <None Include="Scripts\_references.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountantData.aspx.designer.vb">
+      <DependentUpon>AccountantData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccountantData.aspx.vb">
+      <DependentUpon>AccountantData.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AccountantLogin.aspx.designer.vb">
+      <DependentUpon>AccountantLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccountantLogin.aspx.vb">
+      <DependentUpon>AccountantLogin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.aspx.designer.vb">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLogin.aspx.vb">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AdmissionApplication.aspx.designer.vb">
+      <DependentUpon>AdmissionApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdmissionApplication.aspx.vb">
+      <DependentUpon>AdmissionApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard.aspx.designer.vb">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.aspx.vb">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Enquiry.aspx.designer.vb">
+      <DependentUpon>Enquiry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Enquiry.aspx.vb">
+      <DependentUpon>Enquiry.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="HomePage.aspx.designer.vb">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.aspx.vb">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ManageData.aspx.designer.vb">
+      <DependentUpon>ManageData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageData.aspx.vb">
+      <DependentUpon>ManageData.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Css\bootstrap.min.css.map" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Css\now-ui-dashboard.css.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3236</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51743/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
